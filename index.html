@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BEK - Boutique online de moda SHEIN y productos variados al mejor precio en Champerico, Retalhuleu, Guatemala. Ropa, calzado, accesorios y más.">
+    <meta name="keywords" content="boutique, moda, SHEIN, ropa, calzado, accesorios, maquillaje, Guatemala, Champerico, Retalhuleu">
+    <meta name="author" content="BEK Boutique">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BEK - Boutique Online de Moda">
+    <meta property="og:description" content="Encuentra moda SHEIN y productos variados al mejor precio. Ropa, calzado, accesorios y más.">
+    <meta property="og:image" content="images/logo.svg">
+    
+    <title>BEK - Boutique Online | Moda SHEIN al Mejor Precio</title>
+    
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header / Navegación -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#inicio" class="logo">
+                <img src="images/logo.svg" alt="BEK Boutique Logo" class="logo-img">
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#catalogo" class="nav-link">Catálogo</a></li>
+                    <li><a href="#nosotros" class="nav-link">Sobre Nosotros</a></li>
+                    <li><a href="#pedidos" class="nav-link">Pedidos</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="social-header">
+                <a href="https://www.tiktok.com/@bekboutique" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Síguenos en TikTok">
+                    <svg viewBox="0 0 24 24" fill="currentColor" class="social-icon">
+                        <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/>
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/bekboutique" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Síguenos en Facebook">
+                    <svg viewBox="0 0 24 24" fill="currentColor" class="social-icon">
+                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                    </svg>
+                </a>
+            </div>
+            
+            <button class="hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title animate-fade-in">
+                Bienvenidos a <span class="highlight">BEK</span>
+            </h1>
+            <p class="hero-subtitle animate-fade-in-delay">
+                Tu boutique online de moda SHEIN y productos variados al mejor precio
+            </p>
+            <div class="hero-buttons animate-fade-in-delay-2">
+                <a href="#catalogo" class="btn btn-primary">Ver Catálogo</a>
+                <a href="#pedidos" class="btn btn-secondary">Hacer Pedido</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Desliza</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- Descripción del Negocio -->
+    <section class="about-brief">
+        <div class="container">
+            <div class="about-brief-content">
+                <h2 class="section-title">Moda al Alcance de Todos</h2>
+                <p class="about-brief-text">
+                    En <strong>BEK</strong> encontrarás la mejor selección de moda SHEIN y productos variados para toda la familia. 
+                    Ofrecemos calidad, estilo y los mejores precios desde Champerico, Retalhuleu.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorías Destacadas -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Nuestras Categorías</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="ropa-mujer">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a5 5 0 0 0-5 5v1H4l1 11a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2l1-11h-3V7a5 5 0 0 0-5-5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Ropa Mujer</h3>
+                </div>
+                <div class="category-card" data-category="ropa-hombre">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Ropa Hombre</h3>
+                </div>
+                <div class="category-card" data-category="ropa-ninos">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Ropa Niños</h3>
+                </div>
+                <div class="category-card" data-category="calzado">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M2 14c.5-1.5 1.5-3 3-4 1-1 2.5-1.5 4-1.5h10c1 0 2 .5 3 1.5.5.5 1 1 1 1.5v2c0 1-.5 2-1 3H3c-1-1-1.5-2-1-2.5z"/>
+                            <path d="M6 14v4"/>
+                            <path d="M18 14v4"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Calzado</h3>
+                </div>
+                <div class="category-card" data-category="maquillaje">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v6m0 12v2m-6-8H2m20 0h-4"/>
+                            <circle cx="12" cy="14" r="4"/>
+                            <path d="M9 2h6"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Maquillaje</h3>
+                </div>
+                <div class="category-card" data-category="accesorios">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 2a10 10 0 1 0 10 10"/>
+                            <path d="M22 2L12 12"/>
+                        </svg>
+                    </div>
+                    <h3 class="category-name">Accesorios</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="1" y="3" width="15" height="13"/>
+                            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                            <circle cx="5.5" cy="18.5" r="2.5"/>
+                            <circle cx="18.5" cy="18.5" r="2.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Envíos a Todo Guatemala</h3>
+                    <p class="benefit-text">Llevamos tus pedidos hasta donde estés</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Productos de Calidad</h3>
+                    <p class="benefit-text">Moda SHEIN y selección premium</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"/>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Mejores Precios</h3>
+                    <p class="benefit-text">Moda accesible para toda la familia</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Gran Variedad</h3>
+                    <p class="benefit-text">Ropa, calzado, accesorios y más</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo de Productos -->
+    <section class="catalog" id="catalogo">
+        <div class="container">
+            <h2 class="section-title">Nuestro Catálogo</h2>
+            <p class="section-subtitle">Explora nuestra colección de productos</p>
+            
+            <!-- Filtros -->
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="ropa-mujer">Ropa Mujer</button>
+                <button class="filter-btn" data-filter="ropa-hombre">Ropa Hombre</button>
+                <button class="filter-btn" data-filter="ropa-ninos">Ropa Niños</button>
+                <button class="filter-btn" data-filter="calzado">Calzado</button>
+                <button class="filter-btn" data-filter="maquillaje">Maquillaje</button>
+                <button class="filter-btn" data-filter="accesorios">Accesorios</button>
+                <button class="filter-btn" data-filter="variados">Variados</button>
+            </div>
+            
+            <!-- Grid de Productos -->
+            <div class="products-grid" id="products-grid">
+                <!-- Ropa Mujer -->
+                <div class="product-card" data-category="ropa-mujer">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #FFB6D9 0%, #FF1493 100%);">
+                            <span>Vestido</span>
+                        </div>
+                        <span class="product-badge">Nuevo</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Vestido Floral Elegante</h3>
+                        <p class="product-category">Ropa Mujer</p>
+                        <p class="product-price">Q150.00</p>
+                        <button class="btn btn-product" data-product="1">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="ropa-mujer">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #C77DFF 0%, #FF1493 100%);">
+                            <span>Blusa</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Blusa Casual Moderna</h3>
+                        <p class="product-category">Ropa Mujer</p>
+                        <p class="product-price">Q85.00</p>
+                        <button class="btn btn-product" data-product="2">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="ropa-mujer">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #FF1493 0%, #C77DFF 100%);">
+                            <span>Pantalón</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pantalón de Mezclilla</h3>
+                        <p class="product-category">Ropa Mujer</p>
+                        <p class="product-price">Q120.00</p>
+                        <button class="btn btn-product" data-product="3">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <!-- Ropa Hombre -->
+                <div class="product-card" data-category="ropa-hombre">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #6B5B95 0%, #C77DFF 100%);">
+                            <span>Camisa</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Camisa Casual</h3>
+                        <p class="product-category">Ropa Hombre</p>
+                        <p class="product-price">Q95.00</p>
+                        <button class="btn btn-product" data-product="4">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="ropa-hombre">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #4A4A6A 0%, #6B5B95 100%);">
+                            <span>Pantalón</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Pantalón Deportivo</h3>
+                        <p class="product-category">Ropa Hombre</p>
+                        <p class="product-price">Q110.00</p>
+                        <button class="btn btn-product" data-product="5">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <!-- Ropa Niños -->
+                <div class="product-card" data-category="ropa-ninos">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #FFB6D9 0%, #87CEEB 100%);">
+                            <span>Conjunto</span>
+                        </div>
+                        <span class="product-badge">Popular</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Conjunto Infantil</h3>
+                        <p class="product-category">Ropa Niños</p>
+                        <p class="product-price">Q75.00</p>
+                        <button class="btn btn-product" data-product="6">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="ropa-ninos">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #FF1493 0%, #FFB6D9 100%);">
+                            <span>Vestido</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Vestido para Niña</h3>
+                        <p class="product-category">Ropa Niños</p>
+                        <p class="product-price">Q80.00</p>
+                        <button class="btn btn-product" data-product="7">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <!-- Calzado -->
+                <div class="product-card" data-category="calzado">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #C77DFF 0%, #6B5B95 100%);">
+                            <span>Zapatillas</span>
+                        </div>
+                        <span class="product-badge">Oferta</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Zapatillas Deportivas</h3>
+                        <p class="product-category">Calzado</p>
+                        <p class="product-price">Q180.00</p>
+                        <button class="btn btn-product" data-product="8">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="calzado">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #FFB6D9 0%, #C77DFF 100%);">
+                            <span>Sandalias</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Sandalias de Moda</h3>
+                        <p class="product-category">Calzado</p>
+                        <p class="product-price">Q95.00</p>
+                        <button class="btn btn-product" data-product="9">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <!-- Maquillaje -->
+                <div class="product-card" data-category="maquillaje">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #FF1493 0%, #FFB6D9 100%);">
+                            <span>Set</span>
+                        </div>
+                        <span class="product-badge">Nuevo</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Set de Maquillaje Profesional</h3>
+                        <p class="product-category">Maquillaje</p>
+                        <p class="product-price">Q150.00</p>
+                        <button class="btn btn-product" data-product="10">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="maquillaje">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #FF6B6B 0%, #FF1493 100%);">
+                            <span>Labial</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Labial de Larga Duración</h3>
+                        <p class="product-category">Maquillaje</p>
+                        <p class="product-price">Q45.00</p>
+                        <button class="btn btn-product" data-product="11">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <!-- Accesorios -->
+                <div class="product-card" data-category="accesorios">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #C77DFF 0%, #FF1493 100%);">
+                            <span>Bolso</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Bolso Elegante</h3>
+                        <p class="product-category">Accesorios</p>
+                        <p class="product-price">Q130.00</p>
+                        <button class="btn btn-product" data-product="12">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="accesorios">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #FFB6D9 0%, #C77DFF 100%);">
+                            <span>Aretes</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Aretes de Moda</h3>
+                        <p class="product-category">Accesorios</p>
+                        <p class="product-price">Q35.00</p>
+                        <button class="btn btn-product" data-product="13">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <!-- Productos Variados -->
+                <div class="product-card" data-category="variados">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #E6E6FA 0%, #C77DFF 100%);">
+                            <span>Perfume</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Perfume Floral</h3>
+                        <p class="product-category">Variados</p>
+                        <p class="product-price">Q120.00</p>
+                        <button class="btn btn-product" data-product="14">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="variados">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #6B5B95 0%, #4A4A6A 100%);">
+                            <span>Cinturón</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Cinturón Moderno</h3>
+                        <p class="product-category">Variados</p>
+                        <p class="product-price">Q50.00</p>
+                        <button class="btn btn-product" data-product="15">Ver Detalles</button>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="ropa-mujer">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #FF1493 0%, #E6E6FA 100%);">
+                            <span>Falda</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Falda Plisada</h3>
+                        <p class="product-category">Ropa Mujer</p>
+                        <p class="product-price">Q95.00</p>
+                        <button class="btn btn-product" data-product="16">Ver Detalles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre BEK</h2>
+                    <p class="about-description">
+                        <strong>BEK</strong> nació con la visión de llevar moda de calidad a precios accesibles 
+                        para toda la familia en Guatemala. Desde Champerico, Retalhuleu, nos dedicamos a 
+                        seleccionar los mejores productos de SHEIN y otras marcas reconocidas.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Nuestra Misión</h4>
+                                <p>Ofrecer moda de calidad a precios accesibles para toda la familia guatemalteca.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Ubicación</h4>
+                                <p>Champerico, Retalhuleu, Guatemala - Envíos a todo el país.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Nuestros Productos</h4>
+                                <p>Moda SHEIN y selección variada de productos de calidad garantizada.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-placeholder">
+                        <img src="images/logo.svg" alt="BEK Boutique" class="about-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Pedidos -->
+    <section class="order-form" id="pedidos">
+        <div class="container">
+            <h2 class="section-title">Realiza tu Pedido</h2>
+            <p class="section-subtitle">Completa el formulario y nos pondremos en contacto contigo</p>
+            
+            <form class="form" id="order-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="nombre" class="form-label">Nombre Completo *</label>
+                        <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Tu nombre completo" required>
+                        <span class="form-error" id="nombre-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefono" class="form-label">Teléfono *</label>
+                        <input type="tel" id="telefono" name="telefono" class="form-input" placeholder="Tu número de teléfono" required>
+                        <span class="form-error" id="telefono-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="Tu correo electrónico">
+                        <span class="form-error" id="email-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="producto" class="form-label">Producto de Interés *</label>
+                        <select id="producto" name="producto" class="form-input form-select" required>
+                            <option value="">Selecciona un producto</option>
+                            <option value="Vestido Floral Elegante">Vestido Floral Elegante - Q150</option>
+                            <option value="Blusa Casual Moderna">Blusa Casual Moderna - Q85</option>
+                            <option value="Pantalón de Mezclilla">Pantalón de Mezclilla - Q120</option>
+                            <option value="Camisa Casual">Camisa Casual - Q95</option>
+                            <option value="Pantalón Deportivo">Pantalón Deportivo - Q110</option>
+                            <option value="Conjunto Infantil">Conjunto Infantil - Q75</option>
+                            <option value="Vestido para Niña">Vestido para Niña - Q80</option>
+                            <option value="Zapatillas Deportivas">Zapatillas Deportivas - Q180</option>
+                            <option value="Sandalias de Moda">Sandalias de Moda - Q95</option>
+                            <option value="Set de Maquillaje Profesional">Set de Maquillaje Profesional - Q150</option>
+                            <option value="Labial de Larga Duración">Labial de Larga Duración - Q45</option>
+                            <option value="Bolso Elegante">Bolso Elegante - Q130</option>
+                            <option value="Aretes de Moda">Aretes de Moda - Q35</option>
+                            <option value="Perfume Floral">Perfume Floral - Q120</option>
+                            <option value="Cinturón Moderno">Cinturón Moderno - Q50</option>
+                            <option value="Falda Plisada">Falda Plisada - Q95</option>
+                            <option value="otro">Otro (especificar en mensaje)</option>
+                        </select>
+                        <span class="form-error" id="producto-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="cantidad" class="form-label">Cantidad *</label>
+                        <input type="number" id="cantidad" name="cantidad" class="form-input" placeholder="1" min="1" value="1" required>
+                        <span class="form-error" id="cantidad-error"></span>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="mensaje" class="form-label">Mensaje Adicional</label>
+                        <textarea id="mensaje" name="mensaje" class="form-input form-textarea" placeholder="¿Algún detalle adicional? (talla, color, consultas)"></textarea>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-submit">
+                    <span class="btn-text">Enviar Pedido</span>
+                    <span class="btn-loading" style="display: none;">
+                        <svg class="spinner" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" fill="none" stroke-dasharray="30 70"/>
+                        </svg>
+                        Enviando...
+                    </span>
+                </button>
+            </form>
+            
+            <!-- Mensaje de confirmación -->
+            <div class="form-success" id="form-success" style="display: none;">
+                <div class="success-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                </div>
+                <h3>¡Pedido Recibido!</h3>
+                <p>Gracias por tu interés. Nos pondremos en contacto contigo pronto.</p>
+                <button class="btn btn-secondary" id="new-order-btn">Hacer Otro Pedido</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto / Footer -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <img src="images/logo.svg" alt="BEK Boutique" class="footer-logo">
+                    <p class="footer-description">
+                        Tu boutique online de moda SHEIN y productos variados al mejor precio.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contacto</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="footer-icon">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            Champerico, Retalhuleu, Guatemala
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="footer-icon">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            Lunes a Sábado: 8:00 AM - 6:00 PM
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#catalogo">Catálogo</a></li>
+                        <li><a href="#nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#pedidos">Hacer Pedido</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Síguenos</h4>
+                    <div class="footer-social">
+                        <a href="https://www.tiktok.com/@bekboutique" target="_blank" rel="noopener noreferrer" class="social-link-footer" aria-label="TikTok">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/>
+                            </svg>
+                            <span>TikTok</span>
+                        </a>
+                        <a href="https://www.facebook.com/bekboutique" target="_blank" rel="noopener noreferrer" class="social-link-footer" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 BEK. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Producto -->
+    <div class="modal" id="product-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Cerrar">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <div class="modal-body">
+                <div class="modal-image" id="modal-image"></div>
+                <div class="modal-info">
+                    <span class="modal-category" id="modal-category">Categoría</span>
+                    <h2 class="modal-title" id="modal-title">Nombre del Producto</h2>
+                    <p class="modal-price" id="modal-price">Q0.00</p>
+                    <p class="modal-description" id="modal-description">
+                        Descripción del producto. Producto de alta calidad importado de SHEIN. 
+                        Disponible en varias tallas y colores.
+                    </p>
+                    <div class="modal-actions">
+                        <a href="#pedidos" class="btn btn-primary modal-order-btn">Hacer Pedido</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botón Volver Arriba -->
+    <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
